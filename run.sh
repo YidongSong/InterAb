@@ -1,0 +1,1 @@
+python ./src/predict.py -c $1 --task $2

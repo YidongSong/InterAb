@@ -1,0 +1,77 @@
+{
+    "name": "Eval-genetation",
+    "n_gpu": 1,
+
+    "data_loader": {
+        "type": "Antibody_Antigen_Dataset_AbDab",
+        "args":{
+            "seed": 2,
+            "batch_size": 1,
+            "validation_split": 0,
+            "test_split": 0,
+            "num_workers": 8,
+            "data_dir": "./data/example_specificity.csv",
+            
+            "antibody_tokenizer_dir": "./Antibody_models/antibody_tokenizer",
+            "antibody_vocab_dir": "",
+            
+            "tokenizer_name": "common",
+            
+            "token_length_list": "2,3",
+            
+            "antigen_seq_name":"antigen_seq",
+            "heavy_seq_name":"antibody_seq_a",
+            "light_seq_name":"antibody_seq_b",
+            "label_name":"kd",
+            "heavy_max_len": 256,
+            "light_max_len": 256,
+            "antigen_max_len": 700,
+            
+            "test_antibodys": 1,
+            "shuffle": false
+        }
+    },
+
+    "arch": {
+        "type": "InterAb",
+        "args": {
+            "heavy_dir": "./Antibody_models/heavy_model",
+            "light_dir": "./Antibody_models/light_model",
+            "antigen_dir": "facebook/esm2_t30_150M_UR50D",
+            "emb_dim": 256
+        }
+    },
+    "discriminator_resume": "./model/Specificity/model_best.pth",
+
+
+    "optimizer": {
+        "type": "AdamW",
+        "args":{
+            "lr": 8e-6,
+            "weight_decay": 0
+        }
+    },
+    "loss": "bce_withlogits_loss",
+    "metrics": [
+        "accuracy", "recall", "roc_auc"
+    ],
+    "lr_scheduler": {
+        "type": "StepLR",
+        "args": {
+            "step_size": 10,
+            "gamma": 0.5
+        }
+    },
+    "trainer": {
+        "epochs": 15,
+        
+        "save_dir": "./Result/",
+        "save_period": 200,
+        "verbosity": 2,
+        "logging_steps":25,
+        "monitor": "min val_loss",
+        "early_stop": 5,
+
+        "tensorboard": true
+    }
+}
