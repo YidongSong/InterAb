@@ -44,8 +44,8 @@ For antibody specificity prediction, 预测结果格式为
 
 以下是模型预测结果的详细说明：
 
-| Heavy chain          | Light chain                         | Antigen                     |Predictions
+| Heavy chain          | Light chain                         | Antigen                     |Predictions      |
 |-------------------|-------------------------------|------------------------------|
-| QVQLQQ******KISCKS | ISCKTS******VDKPGQ                  | 预测任务（antibody specificity） |
+| QVQLQQ......KISCKS | ISCKTS......VDKPGQ                  | 预测任务（antibody specificity） |
 | `affinity.json`    | 记录抗体-抗原亲和力预测结果   | 抗体-抗原亲和力（antibody-antigen affinity） |
 | `results.csv`      | 存储所有预测结果的CSV文件     | 包含所有预测结果的汇总       |
