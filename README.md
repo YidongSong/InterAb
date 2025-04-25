@@ -46,6 +46,6 @@ For antibody specificity prediction, 预测结果格式为
 
 | Heavy chain          | Light chain                         | Antigen                     |Predictions      |
 |:-------------------:|:-------------------------------:|:------------------------------:|:------------------------------:|
-| QVQLQQ......KISCKS | ISCKTS......VDKPGQ                  | 预测任务（antibody specificity） |
-| `affinity.json`    | 记录抗体-抗原亲和力预测结果   | 抗体-抗原亲和力（antibody-antigen affinity） |
-| `results.csv`      | 存储所有预测结果的CSV文件     | 包含所有预测结果的汇总       |
+| QVQLQQ......KISCKS | ISCKTS......VDKPGQ                  | QNKKWL......LRSLVA |0.0002636696 |
+| ASGFTV......YMSWVR    | LNWYQQ......GKAPKL   | AAAVKQ......EEGICG |0.99756855 |
+| APGKGL......VAYIYP      | CRASQS......SVSSAV     | HVASGY......EAEVIP       |0.9999988 |
