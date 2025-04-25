@@ -46,6 +46,6 @@ For antibody specificity prediction, 预测结果格式为
 
 | Heavy chain          | Light chain                         | Antigen                     |Predictions      |
 |:-------------------:|:-------------------------------:|:------------------------------:|:------------------------------:|
-| QVQLQQ......KISCKS | ISCKTS......VDKPGQ                  | QNKKWL......LRSLVA |0.0002636696 |
+| QVQLQQ......KISCKS | ISCKTS......VDKPGQ                  | QNKKWL......LRSLVA |0.0002636 |
 | ASGFTV......YMSWVR    | LNWYQQ......GKAPKL   | AAAVKQ......EEGICG |0.99756855 |
 | APGKGL......VAYIYP      | CRASQS......SVSSAV     | HVASGY......EAEVIP       |0.9999988 |
