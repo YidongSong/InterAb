@@ -62,8 +62,13 @@ The prediction results for antibody-antigen affinity are presented in the follow
 Similarly, `Heavy chain`, `Light chain`, and `Antigen` represent the sequences of the antibody and antigen, respectively, while `Predictions` denote the predicted binding free energy (Delta G), where a lower Delta G value indicates a higher affinity.
 
 
+# Data availability
+The specificity dataset SPE7626 and the affinity dataset AFF1735 are stored in `./data`. The dataset curated from the SKEMPI 2.0 database is located in `./data/SKE438.csv`, and the compiled data for SARS-CoV-2 and its variants are stored in `./data/SARS-CoV-2`.
 
+# Citation and contact
+Citation: preparing
 
+In case you have questions, please contact Yidong Song (songyd6@mail2.sysu.edu.cn).  
 
 
 
