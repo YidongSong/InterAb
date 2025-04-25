@@ -16,4 +16,4 @@ conda install <the aforementioned packages>
 ```
 
 **3.** Download the models.
-Download the model from Zenodo, which includes the pre-trained antibody models (Antibody_models), the pre-trained ESM2 models (ESM_models), and the trained InterAb model. You can also download the ESM2 model from [huggingface](https://huggingface.co/facebook/esm2_t30_150M_UR50D/tree/main).
+Download the model from [Zenodo](https://zenodo.org/uploads/15278695), which includes the pre-trained antibody models (Antibody_models), the pre-trained ESM2 models (ESM_models), and the trained InterAb model. You can also download the ESM2 model from [huggingface](https://huggingface.co/facebook/esm2_t30_150M_UR50D/tree/main).
