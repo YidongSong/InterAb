@@ -12,4 +12,6 @@ Python 3.8.16, numpy v1.24.3, pyg v2.3.0, pytorch v1.13.1, biopython v1.83, debu
 ```
 conda create -n <env_name> python==3.8
 conda activate <env_name>
+conda install <the aforementioned packages>
 ```
+
