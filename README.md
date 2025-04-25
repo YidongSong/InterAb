@@ -8,10 +8,12 @@ Python 3.8.16, numpy v1.24.3, pyg v2.3.0, pytorch v1.13.1, biopython v1.83, debu
 # Install and run the program
 **1.** Clone this repository by 'git clone https://github.com/YidongSong/InterAb.git'.
 
-**2.** Install the packages required by GraphEC.
+**2.** Install the packages required by InterAb.
 ```
 conda create -n <env_name> python==3.8
 conda activate <env_name>
 conda install <the aforementioned packages>
 ```
 
+**3.** Download the models.
+Download the model from Zenodo, which includes the pre-trained antibody models (Antibody_models), the pre-trained ESM2 models (ESM_models), and the trained InterAb model. You can also download the ESM2 model from [huggingface](https://huggingface.co/facebook/esm2_t30_150M_UR50D/tree/main).
