@@ -24,10 +24,15 @@ model -> InterAb/model
 ```
 
 **4.** Run InterAb with the following command:  
+For the task of antibody-antigen affinity prediction, please use the following code:
+```
+bash run.sh ./config/common/specificity.json specificity
+```
+The `specificity.json` documents the parameters of the model, and `specificity` indicates the task to be predicted.   
 
 For the task of antibody-antigen affinity prediction, please use the following code:
 
 ```
 bash run.sh ./config/common/affinity.json affinity
 ```
-
+Among them, `affinity.json` represents the parameters of the model, and `affinity` denotes the type of task.
