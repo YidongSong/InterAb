@@ -39,13 +39,13 @@ Among them, `affinity.json` represents the parameters of the model, and `affinit
 
 **5.** Analysis of the prediction results.
 The prediction results are stored in `./Results`, encompassing the predictions for both antibody specificity and antibody-antigen affinity.  
-For antibody specificity prediction, 预测结果格式为
-## 预测结果
+For antibody specificity prediction, the format of the prediction results is as follows:
 
-以下是模型预测结果的详细说明：
 
 | Heavy chain          | Light chain                         | Antigen                     |Predictions      |
 |:-------------------:|:-------------------------------:|:------------------------------:|:------------------------------:|
 | QVQLQQ......KISCKS | ISCKTS......VDKPGQ                  | QNKKWL......LRSLVA |0.0002636 |
 | ASGFTV......YMSWVR    | LNWYQQ......GKAPKL   | AAAVKQ......EEGICG |0.99756855 |
 | APGKGL......VAYIYP      | CRASQS......SVSSAV     | HVASGY......EAEVIP       |0.9999988 |
+
+The `Heavy chain` and `Light chain` represent the heavy chain and light chain of the antibody, while the `Antigen` denotes the chain of the antigen. The `Predictions` denote the prediction scores, where a higher score indicates a greater likelihood of binding between the corresponding antibody and antigen.
