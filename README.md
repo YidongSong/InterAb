@@ -56,8 +56,10 @@ The prediction results for antibody-antigen affinity are presented in the follow
 | Heavy chain          | Light chain                         | Antigen                     |Predictions      |
 |:-------------------:|:-------------------------------:|:------------------------------:|:------------------------------:|
 ｜SPRLLI......ASQSIG| WIRKFP......GNKLEY|DNYRGY......SLGNWV|-9.820102|
-|
+|PREEQY......STYRVV|PEVKFN......NWYVDG|FHNESL......SSQASS|-9.166173|
+|FTFSRY......WVRQAP|CSASSS......VHMFWY|IAFLND......KRMDIG|-9.843646|
 
+Similarly, `Heavy chain`, `Light chain`, and `Antigen` represent the sequences of the antibody and antigen, respectively, while `Predictions` denote the predicted binding free energy (Delta G), where a lower Delta G value indicates a higher affinity.
 
 
 
