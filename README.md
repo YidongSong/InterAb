@@ -24,7 +24,7 @@ model -> InterAb/model
 ```
 
 **4.** Run InterAb with the following command:  
-For the task of antibody-antigen affinity prediction, please use the following code:
+For the task of antibody specificity prediction, please use the following code:
 ```
 bash run.sh ./config/common/specificity.json specificity
 ```
@@ -36,3 +36,16 @@ For the task of antibody-antigen affinity prediction, please use the following c
 bash run.sh ./config/common/affinity.json affinity
 ```
 Among them, `affinity.json` represents the parameters of the model, and `affinity` denotes the type of task.
+
+**5.** Analysis of the prediction results.
+The prediction results are stored in `./Results`, encompassing the predictions for both antibody specificity and antibody-antigen affinity.  
+For antibody specificity prediction, 预测结果格式为
+## 预测结果
+
+以下是模型预测结果的详细说明：
+
+| 文件名称          | 描述                          | 预测内容                     |
+|-------------------|-------------------------------|------------------------------|
+| `specificity.json` | 记录模型参数                  | 预测任务（antibody specificity） |
+| `affinity.json`    | 记录抗体-抗原亲和力预测结果   | 抗体-抗原亲和力（antibody-antigen affinity） |
+| `results.csv`      | 存储所有预测结果的CSV文件     | 包含所有预测结果的汇总       |
