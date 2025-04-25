@@ -37,7 +37,7 @@ bash run.sh ./config/common/affinity.json affinity
 ```
 Among them, `affinity.json` represents the parameters of the model, and `affinity` denotes the type of task.
 
-**5.** Analysis of the prediction results.
+**5.** Analysis of the prediction results.   
 The prediction results are stored in `./Results`, encompassing the predictions for both antibody specificity and antibody-antigen affinity.  
 For antibody specificity prediction, the format of the prediction results is as follows:
 
@@ -48,4 +48,22 @@ For antibody specificity prediction, the format of the prediction results is as 
 | ASGFTV......YMSWVR    | LNWYQQ......GKAPKL   | AAAVKQ......EEGICG |0.99756855 |
 | APGKGL......VAYIYP      | CRASQS......SVSSAV     | HVASGY......EAEVIP       |0.9999988 |
 
-The `Heavy chain` and `Light chain` represent the heavy chain and light chain of the antibody, while the `Antigen` denotes the chain of the antigen. The `Predictions` denote the prediction scores, where a higher score indicates a greater likelihood of binding between the corresponding antibody and antigen.
+The `Heavy chain` and `Light chain` represent the heavy chain and light chain of the antibody, while the `Antigen` denotes the chain of the antigen. The `Predictions` denote the prediction scores, where a higher score indicates a greater likelihood of binding between the corresponding antibody and antigen.   
+
+
+The prediction results for antibody-antigen affinity are presented in the following format:
+
+| Heavy chain          | Light chain                         | Antigen                     |Predictions      |
+|:-------------------:|:-------------------------------:|:------------------------------:|:------------------------------:|
+｜SPRLLI......ASQSIG| WIRKFP......GNKLEY|DNYRGY......SLGNWV|-9.820102|
+|
+
+
+
+
+
+
+
+
+
+
