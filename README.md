@@ -23,7 +23,7 @@ ESM_models -> InterAb/ESM_models
 model -> InterAb/model
 ```
 
-**4.** Run InterAb with the following command:
+**4.** Run InterAb with the following command:  
 
 For the task of antibody-antigen affinity prediction, please use the following code:
 
