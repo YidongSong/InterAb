@@ -13,7 +13,7 @@ from os.path import join
 import DataLoader.bert_finetuning_er_seq2seq_dataset as module_data
 import loss as module_loss
 import metric as module_metric
-import bert_binding as module_arch
+import interaction as module_arch
 from parse_config import ConfigParser
 import pdb
 import pandas as pd
