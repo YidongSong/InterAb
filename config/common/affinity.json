@@ -65,7 +65,7 @@
     "trainer": {
         "epochs": 15,
         
-        "save_dir": "./Result/",
+        "save_dir": "./Results/",
         "save_period": 200,
         "verbosity": 2,
         "logging_steps":25,
