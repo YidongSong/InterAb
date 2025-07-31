@@ -106,7 +106,7 @@ def main(config, task):
     
     checkpoint = torch.load(config['discriminator_resume'])
     state_dict = checkpoint['state_dict']
-    model.load_state_dict(state_dict)
+    model.load_state_dict(state_dict, strict=False)
     model.to("cuda")
 
     """Test."""
