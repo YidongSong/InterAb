@@ -26,7 +26,7 @@ def predict(model ,data_loader, antibody_tokenizer, antigen_tokenizer,device,con
         geo_data = pickle.load(open('./data/Geo_data/exa_affinity_geo_data.pkl', 'rb'))
     if task == 'specificity':
         atom_inputs = pickle.load(open('./data/atom/exa_specificity_atom_inputs.pkl', 'rb'))
-        geo_data = pickle.load(open('./data/Geo_data/specificity_geo_data.pkl', 'rb'))
+        geo_data = pickle.load(open('./data/Geo_data/exa_specificity_geo_data.pkl', 'rb'))
 
     model.eval()
     result_dict = {'heavy': [], 
