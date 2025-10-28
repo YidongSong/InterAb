@@ -19,7 +19,7 @@ def get_chains_from_pdb(pdb_file):
 
     chains_info = []
 
-    # 遍历模型、链和残基
+    # Traverse the model, chain, and residue
     for model in structure:
         for chain in model:
             chain_id = chain.id
@@ -35,10 +35,10 @@ def Mean_xyz(pdb_file):
     parser = PDB.PDBParser()
     structure = parser.get_structure("PDB", pdb_file)
 
-    # 存储坐标
+    # Store the coordinates
     coordinates = []
 
-    # 遍历结构并提取坐标
+    # Traverse the structure and extract the coordinates.
     for model in structure:
         for chain in model:
             for residue in chain:
