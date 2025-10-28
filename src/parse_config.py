@@ -36,7 +36,7 @@ class ConfigParser:
             # if 'local_rank' in config:
             #     run_id = run_id + '-job-' + config['local_rank']
         self._save_dir = save_dir / 'checkpoints' / exper_name / run_id
-        self._log_dir = save_dir / 'datasplit' / exper_name / run_id
+        self._log_dir = save_dir / 'pred' / exper_name / run_id
 ###
         #if os.environ.get('RANK') is not None and int(os.environ.get('RANK'))== 0:
         
