@@ -38,7 +38,7 @@ bash run.sh ./config/common/affinity.json affinity
 Among them, `affinity.json` represents the parameters of the model, and `affinity` denotes the type of task.
 
 **5.** Analysis of the prediction results.   
-The prediction results are stored in `./Results`, encompassing the predictions for both antibody specificity and antibody-antigen affinity.  
+The prediction results are stored in `./Results/pred`, encompassing the predictions for both antibody specificity and antibody-antigen affinity.  
 For antibody specificity prediction, the format of the prediction results is as follows:
 
 
