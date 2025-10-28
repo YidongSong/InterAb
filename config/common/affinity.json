@@ -1,5 +1,5 @@
 {
-    "name": "Eval-genetation",
+    "name": "affinity",
     "n_gpu": 1,
 
     "data_loader": {
