@@ -10,9 +10,13 @@ Python 3.8.16, numpy v1.24.3, pyg v2.3.0, pytorch v2.0.0, biopython v1.83, debug
 
 **2.** Install the packages required by InterAb.
 ```
+# manually installed individually
 conda create -n <env_name> python==3.8
 conda activate <env_name>
-conda install <the aforementioned packages>
+conda install <the packages in the environment.yml>
+
+# automatically installed
+conda env create -f environment.yml
 ```
 
 **3.** Download the models.
