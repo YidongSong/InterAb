@@ -66,7 +66,16 @@ Similarly, `Heavy chain`, `Light chain`, and `Antigen` represent the sequences o
 The specificity dataset SPE7620 and the affinity dataset AFF1728 are stored in `./data`. The dataset curated from the SKEMPI 2.0 database is located in `./data/SKE426.csv`, and the organized data for SARS-CoV-2 and its variants are stored in `./data/SARS-CoV-2`.
 
 # Citation and contact
-Citation: preparing
+'''
+@article{song2026optimizing,
+  title={Optimizing broadly neutralizing antibodies via all-atom interaction modeling and pre-trained language models},
+  author={Song, Yidong and Wu, Fandi and Wang, Rubo and He, Bing and Yan, Qihong and Huang, Xiaohan and Chen, Sheng and Yuan, Qianmu and Rao, Jiahua and Tang, Zhenchao and others},
+  journal={bioRxiv},
+  pages={2026--01},
+  year={2026},
+  publisher={Cold Spring Harbor Laboratory}
+}
+'''
 
 In case you have questions, please contact Yidong Song (laliofchina@gmail.com).  
 
