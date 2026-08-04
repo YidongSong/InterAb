@@ -387,8 +387,7 @@ def get_chains_from_pdb(pdb_file):
     structure = parser.get_structure("PDB_structure", pdb_file)
 
     chains_info = []
-
-    # 遍历模型、链和残基
+    
     for model in structure:
         for chain in model:
             chain_id = chain.id
