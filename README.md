@@ -63,12 +63,12 @@ Similarly, `Heavy chain`, `Light chain`, and `Antigen` represent the sequences o
 
 
 # Data availability
-The specificity dataset SPE7626 and the affinity dataset AFF1735 are stored in `./data`. The dataset curated from the SKEMPI 2.0 database is located in `./data/SKE438.csv`, and the organized data for SARS-CoV-2 and its variants are stored in `./data/SARS-CoV-2`.
+The specificity dataset SPE7620 and the affinity dataset AFF1728 are stored in `./data`. The dataset curated from the SKEMPI 2.0 database is located in `./data/SKE426.csv`, and the organized data for SARS-CoV-2 and its variants are stored in `./data/SARS-CoV-2`.
 
 # Citation and contact
 Citation: preparing
 
-In case you have questions, please contact Yidong Song (songyd6@mail2.sysu.edu.cn).  
+In case you have questions, please contact Yidong Song (laliofchina@gmail.com).  
 
 
 
