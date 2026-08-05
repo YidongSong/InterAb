@@ -22,7 +22,7 @@ conda env create -f environment.yml
 ```
 
 **3.** Download the models.
-Download the model from [Zenodo](https://zenodo.org/records/15280517), which includes the pre-trained antibody models (Antibody_models), the pre-trained ESM2 models (ESM_models), and the trained InterAb model. You can also download the ESM2 model from [huggingface](https://huggingface.co/facebook/esm2_t30_150M_UR50D/tree/main). The downloaded model, after being decompressed, should be used to replace the files below:
+Download the model from [Zenodo](https://zenodo.org/records/21785933), which includes the pre-trained antibody models (Antibody_models), the pre-trained ESM2 models (ESM_models), and the trained InterAb model. You can also download the ESM2 model from [huggingface](https://huggingface.co/facebook/esm2_t30_150M_UR50D/tree/main). The downloaded model, after being decompressed, should be used to replace the files below:
 ```
 Antibody_models -> InterAb/Antibody_models
 ESM_models -> InterAb/ESM_models
