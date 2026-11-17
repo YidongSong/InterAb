@@ -1,6 +1,6 @@
 # Introduction
 ![figure1](https://github.com/YidongSong/InterAb/blob/main/Model%20Architecture.png)
-InterAb is a novel model developed for predicting antibody-antigen interactions and optimizing antibodies through all-atom modeling and antibody language models. Leveraging the proposed all-atom modeling approach, AtomInter, and pre-trained antibody language models, InterAb outperforms existing methods in predicting antibody specificity and antibody-antigen binding affinity. Furthermore, it has been successfully applied to the optimization of broadly neutralizing antibodies.
+InterAb is a novel model developed for predicting antibody-antigen interactions and engineering antibodies through all-atom modeling and antibody language models. Leveraging the proposed all-atom modeling approach, AtomInter, and pre-trained antibody language models, InterAb outperforms existing methods in predicting antibody specificity and antibody-antigen binding affinity. Furthermore, it has been successfully applied to the engineering of broadly neutralizing antibodies.
 # System requirement
 InterAb is developed under Linux environment with:
 Python 3.8.20, numpy v1.24.3, pyg v2.3.0, pytorch v2.0.0, biopython v1.81, debugpy v1.6.7, decorator v5.1.1, filelock, v3.12.1, gmp v6.3.0, idna v3.10, ipython v8.12.0, scipy 1.10.1, and six v1.16.0.
